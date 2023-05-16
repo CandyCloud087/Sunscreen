@@ -151,6 +151,26 @@
     width: 30px;
 }
 
+@media screen and (max-width: 1207px) {
+    .content h1{
+        font-size: 45px;
+    }
+    .content p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .content{
+        padding: 0px 40px;
+        gap: 10px;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 796px){
     .wrapper{
         position: relative;
@@ -160,7 +180,7 @@
         position: absolute;
         flex-direction: column;
         top: 0;
-        right: -70%;
+        right: -500%;
         width: 300px;
         background-color: #b7b48a;
         height: 100%;
@@ -173,5 +193,19 @@
     .hamburger{
         display: block;
         z-index: 5;
+    }
+    .hero img{
+        display: none;
+    }
+    .content h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .content{
+        padding: 20px 50px;
+        gap: 15px;
     }
 }
